@@ -1,0 +1,13 @@
+WT6367                  World Average Winter Temperature from 1963-1967
+WT9397                  World Average Winter Temperature from 1993-1997
+WTdiff                  World Average Winter Temperature Change
+                        (1963-1967 Vs 1993-1997)
+gwm                     Internal Data Used by map.world Function
+map.world               World Map
+plot.smooth.sspline     Plot a Smooth.sspline Object
+predict.smooth.sspline
+                        Spherical Smoothing Spline Prediction
+print.smooth.sspline    Display a Smooth.sspline Object
+rmp                     Internal Data Used by map.world Function
+smooth.sspline          Smoothing Spline on the Sphere
+station                 Distribution of the Stations on the World

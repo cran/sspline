@@ -1,0 +1,9 @@
+useDynLib(sspline)
+
+export(smooth.sspline, print.smooth.sspline, summary.smooth.sspline,
+  plot.smooth.sspline, predict.smooth.sspline, map.world, station)
+
+S3method(print, smooth.sspline)
+S3method(summary, smooth.sspline)
+S3method(plot, smooth.sspline)
+S3method(predict, smooth.sspline)
