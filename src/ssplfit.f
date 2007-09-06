@@ -3,7 +3,7 @@ C!    ssplfit.f
 C******************************************************************************
 
       subroutine ssplfit(coefc, coefd, nobs, m, origlon, origlat, 
-     $     	predlon, predlat, npred, vpred)
+     $     predlon, predlat, npred, vpred)
 
 
 C
@@ -23,7 +23,7 @@ C        coefd: input, double, scalar, the estimated coefficient d.
 C        origlon: input, double, dimension nobs by 1, the original longitudes.
 C        origlat: input, double, dimension nobs by 1, the original latitudes.
 C        nobs: input, integer, the dimension of vector coefc.
-C	 m: input, integer, the order of smoothing used in fitting the sspline.
+C        m: input, integer, the order of smoothing used in fitting the sspline.
 C        predlon: input, double, dimension npred by 1, the longitudes on which
 C             the prediction are to be made.
 C        predlat: input, double, dimension npred by 1, the latitudes on which

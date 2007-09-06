@@ -12,7 +12,7 @@ C     ========
 C
 C        The Fortran interface for solving spherical spline problem (can be
 C        called by other Fortran programs/subroutines or R .Fortran 
-C	 interface.)
+C        interface.)
 C
 C     Arguments:
 C     ==========
@@ -22,7 +22,7 @@ C        lat: input, double array, dimension n by 1, the latitudes.
 C          y: input, double array, dimension n by 1, the observations.
 C          n: input, integer, the dimension of lon, lat and y.
 C          m: input, integer, the order of smoothing on the spherical
-C	      function.
+C             function.
 C       smth: input, integer, the way of choosing the smoothing parameter,
 C                0: using the gcv return as the smoothing parameter
 C                1: using the smoothing parameter specified in lambda.
