@@ -1,6 +1,5 @@
 \name{WT6367}
 \alias{WT6367}
-\non_function{}
 \title{World Average Winter Temperature from 1963-1967}
 \description{
     The \code{WT6367} data frame has 1391 rows and 4 columns.

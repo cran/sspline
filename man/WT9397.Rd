@@ -1,6 +1,5 @@
 \name{WT9397}
 \alias{WT9397}
-\non_function{}
 \title{World Average Winter Temperature from 1993-1997}
 \description{
     The \code{WT9397} data frame has 1391 rows and 4 columns.

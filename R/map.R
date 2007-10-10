@@ -3,8 +3,8 @@ map.world <- function(add = FALSE, main = "", ...)
     #
     # read in the map data
     #
-    data(rmp)
-    data(gwm)
+    data(rmp, package="sspline")
+    data(gwm, package="sspline")
     lon <- gwm[, 1]
     lat <- gwm[, 2]
 

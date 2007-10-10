@@ -1,6 +1,5 @@
 \name{WTdiff}
 \alias{WTdiff}
-\non_function{}
 \title{World Average Winter Temperature Change (1963-1967 Vs 1993-1997)}
 \description{
     The \code{WTdiff} data frame has 1391 rows and 4 columns.
