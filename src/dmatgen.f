@@ -90,7 +90,7 @@ C
       factorial = 0
 
       if (n .lt. 0) then
-         print *, 'Error occurs when calculating factorial!'
+	 return
       else
          factorial = 1
          if (n .gt. 2) then

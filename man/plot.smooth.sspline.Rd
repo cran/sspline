@@ -6,8 +6,8 @@
     the function value.
 }
 \usage{
-plot.smooth.sspline(x, lon, lat, main="", xlab="Longitude",
-    ylab="Latitude", key.title="Temp\n(deg)", ...)
+  \method{plot}{smooth.sspline}(x, lon, lat, main="", xlab="Longitude",
+     ylab="Latitude", key.title="Temp\n(deg)", ...)
 }
 \arguments{
   \item{x}{ a \code{smooth.sspline} object }
@@ -28,10 +28,7 @@ plot.smooth.sspline(x, lon, lat, main="", xlab="Longitude",
 \author{ Xianhong Xie }
 \note{ The longitudes and latitudes are measured in degrees. }
 \seealso{ \code{\link{predict.smooth.sspline}} }
-
 \examples{
-data(WTdiff)
-
 subdat <- WTdiff[sample(nrow(WTdiff), 200), 2:4]
 attach(subdat)
 

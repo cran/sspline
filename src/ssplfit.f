@@ -57,7 +57,7 @@ C
 
 
       if (m .lt. 1 .or. m .gt. 10) then
-         stop 'the order of smoothing should be between 1 and 10!'
+      	return
       end if
       
 C

@@ -7,7 +7,7 @@
     or given by the user.
 }
 \usage{
-smooth.sspline(lon, lat, y, m = 2, smth = 0, lambda = 0)
+  smooth.sspline(lon, lat, y, m = 2, smth = 0, lambda = 0)
 }
 \arguments{
   \item{lon}{ numeric vector, the longitudes }
@@ -38,10 +38,7 @@ smooth.sspline(lon, lat, y, m = 2, smth = 0, lambda = 0)
     Sphere}, SIAM J. SCI. STAT. COMPUT.}
 \author{ Xianhong Xie }
 \note{The longitudes and latitudes are measured in degrees.}
-
 \examples{
-data(WTdiff)
-
 subdat <- WTdiff[sample(nrow(WTdiff), 200), 2:4]
 attach(subdat)
 

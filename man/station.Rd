@@ -22,11 +22,10 @@ station(lon=NULL, lat=NULL, pch=24, col="blue", bg="red", ...)
 \value{
     NULL
 }
-\author{ Xianhong Xie <\email{xie@stat.wisc.edu}> }
+\author{ Xianhong Xie }
 \note{ The longitudes and latitudes are measured in degrees. }
 \seealso{ \code{\link{map.world}} }
 \examples{
-data(WTdiff)
 subdat <- WTdiff[sample(nrow(WTdiff), 200), 2:3]
 attach(subdat)
 

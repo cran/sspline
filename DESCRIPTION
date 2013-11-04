@@ -1,13 +1,16 @@
 Package: sspline
-Version: 0.1-5
-Date: 2007/10/10
+Version: 0.1-6
+Date: 2013-11-04
 Title: Smoothing Splines on the Sphere
-Author: Xianhong Xie <xie@stat.wisc.edu>
-Maintainer: Xianhong Xie <xie@stat.wisc.edu>
-Depends: R (>= 0.99)
-Description: R package for Computing the Spherical Smoothing Splines
+Author: Xianhong Xie <xianhong04@gmail.com>
+Maintainer: Xianhong Xie <xianhong04@gmail.com>
+Depends: R (>= 2.10)
+Description: R package for computing the spherical smoothing splines
 License: GPL (>= 2)
 URL: http://www.stat.wisc.edu/~xie
-Packaged: Wed Oct 10 19:35:39 2007; xie
+LazyData: true
+LazyDataCompression: gzip
+Packaged: 2013-11-04 22:51:41 UTC; XXie
+NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2007-10-11 08:26:53
+Date/Publication: 2013-11-05 07:53:31

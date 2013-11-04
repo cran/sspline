@@ -6,7 +6,7 @@
     got from a \code{smooth.sspline} object.
 }
 \usage{
-predict.smooth.sspline(object, lon, lat, grid=FALSE, ...)
+  \method{predict}{smooth.sspline}(object, lon, lat, grid=FALSE, ...)
 }
 \arguments{
     \item{object}{ a \code{smooth.sspline} object }
@@ -27,10 +27,7 @@ predict.smooth.sspline(object, lon, lat, grid=FALSE, ...)
 \author{ Xianhong Xie }
 \note{ The longitudes and latitudes are measured in degrees. }
 \seealso{\code{\link{smooth.sspline}}}
-
 \examples{
-data(WT9397)
-
 subdat <- WT9397[sample(nrow(WT9397), 200), 2:4]
 attach(subdat)
 

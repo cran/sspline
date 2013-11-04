@@ -74,7 +74,7 @@ C
 C     generate the matrix Q from the longitudes and the latitudes.
 C
       if (m .lt. 1 .or. m .gt. 10) then
-         stop 'the order of smoothing should be between 1 and 10!'
+      	return
       end if
 
       call dmatgen(lon, lat, n, m, Q)
@@ -111,7 +111,7 @@ C
       else
 
          if (lambda < 0.0d0) then
-            stop 'The smoothing parameter lambda must be positive!'
+           return
          end if
 
          call dgcvev(y(2), d, n, dlog(lambda), gcv)

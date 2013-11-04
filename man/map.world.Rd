@@ -20,12 +20,9 @@ map.world(add=FALSE, main="", ...)
 }
 \references{ S Archive under \url{http://lib.stat.cmu.edu} }
 \author{ Original in S by Steve Wofsy <\email{scw@io.harward.edu}>, \cr
-    ported to R by Xianhong Xie <\email{xie@stat.wisc.edu}>. }
-
+    ported to R by Xianhong Xie. }
 \examples{
 map.world(main = "The World Map")
 }
 \keyword{aplot}
 \keyword{hplot}
-
-

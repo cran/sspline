@@ -7,6 +7,7 @@
     to 1993-1997 for those stations having non-missing observations
     on the winter (Dec-Feb) for ten years (1963-1967 and 1993-1997).
 }
+\usage{WTdiff}
 \format{
     This data frame contains the following columns:
     \describe{
@@ -36,8 +37,6 @@
     \url{http://www.ncdc.noaa.gov/cgi-bin/res40.pl?page=ghcn.html}
 }
 \examples{
-data(WTdiff)
-
 ## Fit a smoothing spherical spline with part of the data
 subdat <- WTdiff[sample(nrow(WTdiff), 200), 2:4]
 attach(subdat)
@@ -47,5 +46,3 @@ smooth.sspline(lon, lat, avgd)
 detach(subdat)
 }
 \keyword{datasets}
-
-

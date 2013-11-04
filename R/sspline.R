@@ -5,7 +5,11 @@
 smooth.sspline <- function(lon, lat, y, m = 2, smth = 0, lambda = 0)
 {
     this.call <- match.call()
-
+    
+    if ((m<1)||(m>10)) stop("The order of smoothing should be between 1 and 10!")
+    
+    if ((smth=1)&&(lambda<0)) stop("The smoothing parameter lambda must be positive!")
+    
     n <- length(lon)
 
     #
@@ -146,7 +150,7 @@ plot.smooth.sspline <- function(x, lon, lat, main = "", xlab = "Longitude",
     y.lab <- seq(-60, 60, by = 30)
 
     lon <- lon*pi/180; lat <- lat*pi/180
-    filled.contour(lon, lat, predmat, color = terrain.colors,
+    filled.contour(lon, lat, predmat, color.palette = terrain.colors,
         xlim = c(-pi, pi), ylim = c(-pi/2, pi/2),
         plot.title = title(main = main, xlab = xlab, ylab = ylab),
         plot.axes ={ axis(1, at = x.at, x.lab)

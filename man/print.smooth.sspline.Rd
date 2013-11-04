@@ -2,14 +2,13 @@
 \alias{print.smooth.sspline}
 \alias{summary.smooth.sspline}
 \title{Display a Smooth.sspline Object}
-
 \description{
     The print and summary methods for \code{smooth.sspline}
     object.
 }
 \usage{
-print.smooth.sspline(x, ...)
-summary.smooth.sspline(object, ...)
+  \method{print}{smooth.sspline}(x, ...)
+  \method{summary}{smooth.sspline}(object, ...)
 }
 \arguments{
     \item{ x }{ \code{smooth.sspline} objects }
@@ -20,10 +19,8 @@ summary.smooth.sspline(object, ...)
     For \code{print.smooth.sspline}, a \code{smooth.sspline} object; for
     \code{summary.smooth.sspline}, NULL.
   }
-\author{Xianhong Xie}
+\author{ Xianhong Xie }
 \examples{
-data(WT6367)
-
 subdat <- WT6367[sample(nrow(WT6367), 200), 2:4]
 attach(subdat)
 
